@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Tourism in Sri Lanka</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Safari.css">
+    <script src="js/search.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .home-slider {
+            width: 100%; 
+            height: 900px; 
+        }
+        .swiper-slide {
+            background-size: cover; 
+            background-position: center; 
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+            color: white; 
+            font-size: 50px; 
+            text-shadow: 2px 2px 8px rgba(4, 4, 4, 0.5); 
+        }
+        .gallery img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .details-button {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        body {
+            background-image: url(https://www.hdwallpapers.in/download/man_hike_camping_alone_forest_4k_hd_alone-2560x1440.jpg);
+            background-size: cover; 
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div id="top"></div>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Ceylon Extreme Adventures Logo" width="100">
+            CeylonExtremeAdventures.com
+        </a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Adventure <i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="safari.html"><i class="fas fa-binoculars"></i> Safaris</a>
+                    <a href="Hiking & Camping Tours.html"><i class="fas fa-campground"></i> Hiking & Camping Tours</a>
+                    <a href="diving.html"><i class="fas fa-water"></i> Diving</a>
+                    <a href="kayaking.html"><i class="fas fa-ship"></i> Kayaking</a>
+                    <a href="MotorcycleTrails.html"><i class="fas fa-bicycle"></i> Motorcycle Trails</a>
+                    <a href="login.php" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </div>
+            </div>
+            <a href="store.html"><i class="fas fa-store"></i> Store</a>
+            <a href="about-us.html"><i class="fas fa-info-circle"></i> About-Us</a>
+            <a href="contact-us.html"><i class="fas fa-envelope"></i> Contact-Us</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+        <div class="search-box">
+            <input class="search-input" type="text" placeholder="Search something..">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <nav class="navbar">
+            <a href="login.php" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="safari-heading animate__animated animate__fadeInUp">
+                    <br><br><br><br><br><br><br><br><br>
+                    <h1>National Parks</h1>
+                    <p>Safaris in Sri Lanka offer a chance to see diverse wildlife, including elephants, leopards, and numerous bird species. 
+                        Popular national parks include Yala, Udawalawe, Wilpattu, and Minneriya, each known for different animals. 
+                        Jeep safaris are common, with the dry season (May to September) being the best time to visit. 
+                        These safaris also provide excellent wildlife photography opportunities and support conservation efforts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="event">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5YYqzouFFn-92N3QplXXRWp1yE9UMgGjklacj1zRpHK0vMp3pjWe6cpSi-bpG-XwMKUuHwUQRpTyVYj1-hQy3A_YN0K38Wt8VDj1UlLh40gsmqtUMrGjMcD3VKmbomfgK8UV_50VVYug/s1600/yala_national_park.PNG" alt="Card Image">
+                        <div class="card-body">
+                            <h2 class="card-title">Yala National Park</h2>
+                            <p class="card-price">$199</p>
+                            <div class="card-buttons">
+                                <a href="Yala National park.html#Yala" class="btn btn-primary">Read More</a>
+                                <a href="Safari Booking.php?name=Yala National Park&price=199&image=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5YYqzouFFn-92N3QplXXRWp1yE9UMgGjklacj1zRpHK0vMp3pjWe6cpSi-bpG-XwMKUuHwUQRpTyVYj1-hQy3A_YN0K38Wt8VDj1UlLh40gsmqtUMrGjMcD3VKmbomfgK8UV_50VVYug/s1600/yala_national_park.PNG" class="btn btn-primary">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="https://archives1.dailynews.lk/sites/default/files/news/2020/12/13/z_p04-Look-beyond0.jpg" alt="Card Image">
+                        <div class="card-body">
+                            <h2 class="card-title">Wilpattu</h2>
+                            <p class="card-price">$299</p>
+                            <div class="card-buttons">
+                                <a href="Wilpatthu National Park.html#Wilpatthu" class="btn btn-primary">Read More</a>
+                                <a href="Safari Booking.php?name=Wilpattu&price=299&image=https://archives1.dailynews.lk/sites/default/files/news/2020/12/13/z_p04-Look-beyond0.jpg" class="btn btn-primary">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="https://nz.lakpura.com/cdn/shop/products/LK71260100-01-E.jpg?v=1680267131" alt="Card Image">
+                        <div class="card-body">
+                            <h2 class="card-title">Kumana National Park</h2>
+                            <p class="card-price">$399</p>
+                            <div class="card-buttons">
+                                <a href="Kumana National Park.html#Kumana" class="btn btn-primary">Read More</a>
+                                <a href="Safari Booking.php?name=Kumana National Park&price=399&image=https://nz.lakpura.com/cdn/shop/products/LK71260100-01-E.jpg?v=1680267131" class="btn btn-primary">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="https://srilankafinder.com/wp-content/uploads/2017/10/Udawalawe-National-Park-2-700x500.jpg" alt="Card Image">
+                        <div class="card-body">
+                            <h2 class="card-title">Udawalawa National Park</h2>
+                            <p class="card-price">$499</p>
+                            <div class="card-buttons">
+                                <a href="Udawalawe National Park.html#Udawalwe" class="btn btn-primary">Read More</a>
+                                <a href="Safari Booking.php?name=Udawalawa National Park&price=499&image=https://srilankafinder.com/wp-content/uploads/2017/10/Udawalawe-National-Park-2-700x500.jpg" class="btn btn-primary">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<!--Special Starts Here-->
+
+ <div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="safari-heading animate__animated animate__fadeInUp">
+                <h1>Special</h1>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="event">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Sinharaja -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://www.slncu.lk/web/images/Singharaja_Rain_Forest.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Sinharaja Rain Forest</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Sinharaja Rain Forest.html#Sinharaja" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Horton -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/0*leX2VDsArRY_MB10.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Horton Plains</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Horton Plains.html#Horton" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div> 
+            
+    </div>
+</section>
+<!--Animal Starts Here-->
+
+ <div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="safari-heading animate__animated animate__fadeInUp">
+                <h1>Wild Animals</h1>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="event">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Leopard -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://efl.lk/wp-content/uploads/2018/12/14192647_619340164905919_2433312368112886294_n.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Leopard</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Leopard.html#Leopard" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Elephant -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://globalhelpswap.com/wp-content/uploads/2014/12/wild-elephants-in-Kaudulla-National-Park-Sri-Lanka-6.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Elephant</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Elephant.html#Elephant" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Deer -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://www.bluelankatours.com/wp-content/uploads/2017/12/Spotted_Deer_in_Sri_Lanka.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Deer</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Deer.html#Deer" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Samber Deer -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://dmc.dilmahtea.com/web-space/dmc/animals/da4b9237bacccdf19c0760cab7aec4a8359010b0/147799058675551.png" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Samber Deer</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Samber Deer.html#Samber" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sri Lankan blue magpie -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/252002621/320" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Sri Lankan blue magpie</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Sri Lankan blue magpie.html#Blue" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sri Lankan bay owl -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://www.birdforum.net/gallery/sri-lanka-bay-owl.613394/full" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Sri Lankan bay owl</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Sri Lankan bay owl.html#Bay" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Dull-blue flycatcher -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://www.saiyulanka.com/itinerary/LKE01/images/img_nature_s20.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Dull-blue flycatcher</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Dull-blue flycatcher.html#Dull" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sri Lankan Snakes -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://live.staticflickr.com/3292/3001668733_d62719c3c0.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Sri Lankan Snakes</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Sri Lankan Snakes.html#Snakes" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sri Lanka Reptiles -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://previews.123rf.com/images/utopia88/utopia881701/utopia88170100116/69265876-mugger-crocodile-in-pottuvil-nature-reserve-sri-lanka-specie-crocodylus-palustris-family-of.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Sri Lanka Reptiles</h5>
+                        <p class="card-text"></p>
+                        <div class="event-details">
+                            <span class="event-date"></span>
+                            <span class="event-author"></span>
+                        </div>
+                        <a href="Sri Lankan Reptiles.html#Reptails" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="">home</a>
+            <a href="">adventure</a>
+            <a href="">blog</a>
+            <a href="">events</a>
+            <a href="">products</a>
+            <a href="">about</a>
+        </div>
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my wishlist</a>
+            <a href="#">ask questions</a>
+            <a href="#">terms of use</a>
+            <a href="#">privacy policy</a>
+        </div>
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> hellodamitha@gmail.com </a>
+            <a href="#"> <i class="fas fa-map"></i> Colombo, Sri Lanka</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/hashtag/visitsrilanka" target="_blank"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://twitter.com/search?q=%23visitsrilanka&src=typed_query" target="_blank"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="https://www.instagram.com/explore/tags/visitsrilanka/" target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://www.linkedin.com/feed/hashtag/visitsrilanka/" target="_blank"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="https://www.pinterest.com/search/pins/?q=visitsrilanka&rs=typed" target="_blank"><i class="fa fa-pinterest"></i> pinterest </a>
+        </div>
+    </div>
+    <div class="credit">Made with 🤍 in<span> Sri Lanka</span> <br> Copyright ©️ 2023 - all rights reserved!</div>
+</section>
+
+<a href="#top" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+</a>
+</body>
+</html>

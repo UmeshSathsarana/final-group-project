@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+}
+
+.booking-form {
+    background-color: rgba(91, 82, 82, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.independent.co.uk%2Ftravel%2Fasia%2Fsri-lanka%2Fsri-lanka-travel-guide-best-things-to-do-b2326384.html&psig=AOvVaw1yScXDOz3tUp6gx1O33L1I&ust=1717510756557000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjmxoTXv4YDFQAAAAAdAAAAABAE');
+}
+
+.booking-form h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #821a1a;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-group textarea {
+    resize: none;
+    height: 100px;
+}
+
+.duration-options label {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.payment-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.payment-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}

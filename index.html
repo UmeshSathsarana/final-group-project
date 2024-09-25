@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adventure Tourism in Sri Lanka</title>
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper js cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- home page event section's icon cdn link  -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'> 
+
+   
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Home section google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/search.js"></script>
+
+
+
+        <!-- Include Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+        
+        <style>
+        .home-slider {
+            width: 100%; /* Full width */
+            height: 900px; /* Adjust height as needed */
+            margin-top: 20px; /* Add space below the header */
+        }
+        
+        .swiper-slide {
+            background-size: cover; /* Cover the entire slide */
+            background-position: center; /* Center the background image */
+            display: flex;
+            align-items: center; /* Center content vertically */
+            justify-content: center; /* Center content horizontally */
+            color: white; /* Text color */
+            font-size: 50px; /* Text size */
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5); /* Text shadow for better readability */
+        }
+
+        .details-button {
+        position: absolute; /* Positioning inside the slide */
+        bottom: 50px; /* Distance from bottom */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Precise centering */
+        padding: 10px 20px; /* Padding for button */
+        background-color: #007bff; /* Background color */
+        color: white; /* Text color */
+        border: none; /* No border */
+        cursor: pointer; /* Pointer cursor on hover */
+        text-decoration: none; /* No underline */
+        font-size: 18px; /* Font size */
+        border-radius: 5px; /* Rounded corners */
+    }
+
+
+    body {
+        background-image: url(https://www.hdwallpapers.in/download/man_hike_camping_alone_forest_4k_hd_alone-2560x1440.jpg); /* Replace with your actual image URL */
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the background image */
+        background-attachment: fixed; /* Fixed background (does not scroll with the content) */
+    }
+
+
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <div id="top"></div>
+
+
+    <!-- header section starts  -->
+
+    <header class="header">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Ceylon Extreme Adventures Logo" width="100">
+          CeylonExtremeAdventures.com
+        </a>
+      
+        <nav class="navbar">
+          <div id="nav-close" class="fas fa-times"></div>
+          <a href="index.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Adventure <i class="fas fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="safari.html"><i class="fas fa-binoculars"></i> Safaris</a>
+              <a href="Hiking&CampingTours.html"><i class="fas fa-binoculars"></i>Hiking & Camping Tours</a>
+              <a href="diving.html"><i class="fas fa-water"></i> Diving</a>
+              <a href="kayaking.html"><i class="fas fa-ship"></i> Kayaking</a>
+              <a href="MotorcycleTrails.html"><i class="fas fa-bicycle"></i> Motorcycle Trails</a>
+            </div>
+          </div>
+      
+          <a href="store.html"><i class="fas fa-store"></i> Store</a>
+          <a href="about-us.html"><i class="fas fa-info-circle"></i> About-Us</a>
+          <a href="contact-us.php"><i class="fas fa-envelope"></i> Contact-Us</a>
+        </nav>
+      
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+      
+        <div class="search-box">
+          <input class="search-input" type="text" placeholder="Search something..">
+          <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+      
+        <nav class="navbar">
+          <a href="login.php" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Login Now </a>
+        </nav>
+      </header>
+      
+
+
+<!-- home section starts -->
+<div class="swiper home-slider">
+  <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url('https://i.natgeofe.com/n/d6bd5cdc-528f-4887-9cc3-3fb4e10d6651/sri-lanka-travel.jpg');">
+      Welcome to the Heart of Adventure – Explore Sri Lanka!
+
+
+          <button class="details-button" onclick="location.href='safari.html'">More Details</button>
+      </div>
+      <div class="swiper-slide" style="background-image:url('https://th.bing.com/th/id/R.f6b327cca86fa9d07521f5b20e0ae1d4?rik=%2bbzcjWdAAql7Vg&pid=ImgRaw&r=0');">
+      Welcome to the Wild Side of Sri Lanka
+
+<button class="details-button" onclick="location.href='Hiking&CampingTours.html'">More Details</button>
+      </div>
+      <div class="swiper-slide" style="background-image:url('https://th.bing.com/th/id/R.1c0508777b8a248a3273c5c3dbf0a464?rik=pvrdNshxYU4RAQ&pid=ImgRaw&r=0');">
+      Welcome to the Wild Side of Sri Lanka
+          <button class="details-button" onclick="location.href='safari.html'">More Details</button>
+      </div>
+  </div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var swiper = new Swiper(".home-slider", {
+      loop: true,
+      navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+      },
+  });
+});
+</script>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="safari-heading animate__animated animate__fadeInUp">
+                <h1>Safari</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="event">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Event Card 1 -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5YYqzouFFn-92N3QplXXRWp1yE9UMgGjklacj1zRpHK0vMp3pjWe6cpSi-bpG-XwMKUuHwUQRpTyVYj1-hQy3A_YN0K38Wt8VDj1UlLh40gsmqtUMrGjMcD3VKmbomfgK8UV_50VVYug/s1600/yala_national_park.PNG" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Yala National Park</h5>
+                        <p class="card-text">$199
+                        </p>
+
+                        <a href="Yala National park.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more event cards as needed -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://archives1.dailynews.lk/sites/default/files/news/2020/12/13/z_p04-Look-beyond0.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Wilpattu</h5>
+                        <p class="card-text">$299
+                        </p>
+
+                        <a href="Wilpatthu National Park.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card event-card">
+                <img src="https://nz.lakpura.com/cdn/shop/products/LK71260100-01-E.jpg?v=1680267131" class="card-img-top" alt="Event Image">
+                <div class="card-body">
+                    <h5 class="card-title">Kumana National Park
+                    </h5>
+                    <p class="card-text">$399
+
+                    </p>
+
+                    <a href="Kumana National Park.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+    </div>
+    </div>
+</section>
+
+
+
+<!-- event home page section start -->
+<!-- event home page section starts -->
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="safari-heading animate__animated animate__fadeInUp">
+                <h1>Hiking & Camping Tours</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="event">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Event Card 1 -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://images.musement.com/cover/0161/70/thumb_16069213_cover_header.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Pidurangala</h5>
+                        <p class="card-text">$80</p>
+
+                        <a href="Pidurangala.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more event cards as needed -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://www.storiesbysoumya.com/wp-content/uploads/2021/11/sigiriya-rock-fortress.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Sigiriya</h5>
+                        <p class="card-text">$50</p>
+
+                        <a href="Sigiriya.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card event-card">
+                <img src="https://digitaltravelcouple.com/wp-content/uploads/2020/01/ella-rock-drone.jpg" class="card-img-top" alt="Event Image">
+                <div class="card-body">
+                    <h5 class="card-title">Ella Rock
+                    </h5>
+                    <p class="card-text">$40</p>
+
+                    <a href="Ella Rock.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+    </div>
+    </div>
+</section>
+
+            <!-- end -->
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="safari-heading animate__animated animate__fadeInUp">
+                <h1>Diving</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="event">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Event Card 1 -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/33/57/6b.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Diving In Unawatuna                        </h5>
+                        <p class="card-text">$50</p>
+
+                        <a href="Unawatuna.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more event cards as needed -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/9b/07/07.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Diving In Night Snorkeling Mirissa
+                        </h5>
+                        <p class="card-text">$82</p>
+
+                        <a href="Mirissa.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card event-card">
+                <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e8/3f/d0.jpg" class="card-img-top" alt="Event Image">
+                <div class="card-body">
+                    <h5 class="card-title">Diving In Hikkaduwa
+                    </h5>
+                    <p class="card-text">$92</p>
+
+                    <a href="Hikkaduwa.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+    </div>
+    </div>
+</section>
+
+
+            <!-- end -->
+
+            <div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="safari-heading animate__animated animate__fadeInUp">
+                <h1>Kayaking</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="event">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Event Card 1 -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/f8/33/91.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Kayaking In Baddegama
+                        </h5>
+                        <p class="card-text">$90</p>
+
+                        <a href="Baddegama.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more event cards as needed -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/11/a7/51.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Kayaking In Habarana
+                        </h5>
+                        <p class="card-text">$62</p>
+
+                        <a href="Habarana.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card event-card">
+                <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/27/18/73.jpg" class="card-img-top" alt="Event Image">
+                <div class="card-body">
+                    <h5 class="card-title">Kayaking In Madu River
+                    </h5>
+                    <p class="card-text">$62</p>
+
+                    <a href="maduriver.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+    </div>
+    </div>
+</section>
+
+            <!-- end -->
+
+
+
+
+
+
+
+
+
+
+            <div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="safari-heading animate__animated animate__fadeInUp">
+                <h1>Motorcycle Trails</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="event">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Event Card 1 -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://static.toiimg.com/photo/100182318.cms" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Hi</h5>
+                        <p class="card-text">Hi</p>
+                        <div class="event-details">
+                            <span class="event-date">Hi</span>
+                            <span class="event-author">Hi</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more event cards as needed -->
+            <div class="col-md-4">
+                <div class="card event-card">
+                    <img src="https://static.toiimg.com/photo/100182318.cms" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Hi</h5>
+                        <p class="card-text">Hi</p>
+                        <div class="event-details">
+                            <span class="event-date">Hi</span>
+                            <span class="event-author">Hi</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- event home page section ends -->
+
+<!-- event home page section ends -->
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="safari-heading animate__animated animate__fadeInUp">
+                <h1>store</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="store-section">
+    <div class="store-wrapper">
+        <h2 class="store-heading">PICK TOUR</h2>
+        <p class="store-subheading"> ADVENTURE GEARS</p>
+        <a href="store.html" class="store-button">GO TO STORE</a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="safari.html"><i class="fas fa-binoculars"></i> Safaris</a>
+            <a href="Hiking & Camping Tours.html"><i class="fas fa-campground"></i> Hiking & Camping Tours</a>
+            <a href="diving.html"><i class="fas fa-water"></i> Diving</a>
+            <a href="kayaking.html"><i class="fas fa-ship"></i> Kayaking</a>
+            <a href="MotorcycleTrails.html"><i class="fas fa-bicycle"></i> Motorcycle Trails</a>
+            <a href="store.html"><i class="fas fa-store"></i> Store</a>
+           
+        </div>
+
+        <div class="box">
+            <h3>Our Team</h3>
+            <a href="about-us.html"><i class="fas fa-info-circle"></i> About-Us</a>
+            <a href="contact-us.html"><i class="fas fa-envelope"></i> Contact-Us</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> CeylonExtremeAdventures@gmail.com </a>
+            <a href="#"> <i class="fas fa-map"></i> Colombo, Sri Lanka</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"><i class="fa fa-pinterest"></i> pinterest </a>
+        </div>
+
+    </div>
+
+    <div class="credit">Made with 🤍 in<span> Sri Lanka's Adventure</span> <br>  2024 - ICBT 64/01 Group!</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+<!-- ------scroller to top -->
+
+<a href="#top" class="to-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+

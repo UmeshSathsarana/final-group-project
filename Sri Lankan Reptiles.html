@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lankan Reptiles</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Swiper JS CDN Link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Home Page Event Section's Icon CDN Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"> 
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Home Section Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS File Link -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Custom JS File Link -->
+    <script src="js/search.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .home-slider {
+            width: 100%; /* Full width */
+            height: 900px; /* Adjust height as needed */
+        }
+        
+        .swiper-slide {
+            background-size: cover; /* Cover the entire slide */
+            background-position: center; /* Center the background image */
+            display: flex;
+            align-items: center; /* Center content vertically */
+            justify-content: center; /* Center content horizontally */
+            color: white; /* Text color */
+            font-size: medium; /* Text size */
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5); /* Text shadow for better readability */
+        }
+
+        .gallery img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .details-button {
+            position: absolute; /* Positioning inside the slide */
+            bottom: 50px; /* Distance from bottom */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Precise centering */
+            padding: 10px 20px; /* Padding for button */
+            background-color: #007bff; /* Background color */
+            color: white; /* Text color */
+            border: none; /* No border */
+            cursor: pointer; /* Pointer cursor on hover */
+            text-decoration: none; /* No underline */
+            font-size: 18px; /* Font size */
+            border-radius: 5px; /* Rounded corners */
+        }
+
+        body {
+            background-image: url(https://www.futurity.org/wp/wp-content/uploads/2021/08/rough-nosed-horned-lizards_1600.jpg); /* Replace with your actual image URL */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-attachment: fixed; /* Fixed background (does not scroll with the content) */
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-white">
+        <h1 class="text-center mb-4">Sri Lankan Reptiles</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Sri Lanka is home to a diverse range of reptiles, including crocodiles, lizards, and turtles. These reptiles play a crucial role in maintaining the ecological balance of the island's various ecosystems. Below, we explore some of the most notable reptilian inhabitants of Sri Lanka.</p>
+                
+                <h2>Crocodiles in Sri Lanka</h2>
+                <p>Sri Lanka is home to two species of crocodiles: the mugger crocodile and the saltwater crocodile. These apex predators are vital to the health of aquatic ecosystems, controlling fish populations and cleaning up carrion.</p>
+                
+                <h3>Mugger Crocodile</h3>
+                <p>The mugger crocodile, also known as the marsh crocodile, is found in freshwater habitats such as rivers, lakes, and marshes. It is a robust species with a broad snout and can grow up to 4 meters in length. Mugger crocodiles are known for their powerful jaws and opportunistic feeding habits, preying on fish, birds, and mammals.</p>
+                <div class="row gallery mt-5">
+                    <div class="col-md-4 mb-4">
+                        <img src="https://live.staticflickr.com/1801/43149693702_9ec7c6577c_b.jpg" alt="Mugger Crocodile" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://d25bj6yx3nvsy8.cloudfront.net/2017/10/VW-9.jpg" alt="Mugger Crocodile" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://www.researchgate.net/publication/355344896/figure/fig8/AS:1079536825438231@1634393044299/Mugger-feeding-on-a-pangolin-in-Sri-Lanka-Photograph-JM-Probst-Literature-Cited.png" alt="Mugger Crocodile" class="img-fluid">
+                    </div>
+                </div>
+
+                <h3>Saltwater Crocodile</h3>
+                <p>The saltwater crocodile, the largest living reptile, inhabits the coastal areas and estuaries of Sri Lanka. These formidable predators can exceed 6 meters in length and are known for their aggressive nature. Saltwater crocodiles have a broad diet, including fish, birds, and large mammals, and are capable of traveling vast distances by sea.</p>
+                <div class="row gallery mt-5">
+                    <div class="col-md-4 mb-4">
+                        <img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2020/05/04105146/4-e1588603947987.jpg" alt="Saltwater Crocodile" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://www.classicsrilanka.com/blog/wp-content/uploads/2021/08/Saltwater-Crocodile-1024x547.jpg" alt="Saltwater Crocodile" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://i.ytimg.com/vi/ZnXT2WijKho/maxresdefault.jpg" alt="Saltwater Crocodile" class="img-fluid">
+                    </div>
+                </div>
+
+                <h2>Lizards in Sri Lanka</h2>
+                <p>Sri Lanka is a haven for lizard diversity, with numerous species found across its forests, grasslands, and urban areas. These reptiles are essential for pest control and serve as prey for larger animals.</p>
+                
+                <h3>Common Garden Lizard</h3>
+                <p>The common garden lizard is a familiar sight in Sri Lanka, often found in gardens and forests. It is known for its ability to change colors to blend into its surroundings. These lizards feed on insects and small vertebrates and play a vital role in controlling pest populations.</p>
+                <div class="row gallery mt-5">
+                    <div class="col-md-4 mb-4">
+                        <img src="https://greenwings.co/wp-content/uploads/2019/06/Green-garden-lizard-Calotes-calotes-web.jpg" alt="Common Garden Lizard" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj00F1dm3gvzL4-SNvAs9V1oBg_eSr47NU_dDaaYYhsGok5ITVrUFYClyLedv34IKxbFaD9Pvpa7lcpNVs5bNYOMgYJEp0pRpueVrB5p3ns8ipDgE2DvDHfFYDWsZ64hBEUCu8r0k9n3ug/s1600/Calotes+calotes+%2528Linnaeus%252C+1758%2529+-+Green+garden+lizard-+Palaa+katussa.JPG" alt="Common Garden Lizard" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/171669303/original.jpeg" alt="Common Garden Lizard" class="img-fluid">
+                    </div>
+                </div>
+
+                <h3>Rough-nosed Horned Lizard</h3>
+                <p>The rough-nosed horned lizard is a unique species endemic to Sri Lanka. It is found in the montane forests of the central highlands. This lizard is distinguished by its rough, horn-like projections on its nose and head. It primarily feeds on insects and small invertebrates.</p>
+                <div class="row gallery mt-5">
+                    <div class="col-md-4 mb-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ceratophora_aspera.jpg/1200px-Ceratophora_aspera.jpg" alt="Rough-nosed Horned Lizard" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://scitechdaily.com/images/Male-Rough-Nosed-Horned-Lizard-Crop.jpg" alt="Rough-nosed Horned Lizard" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://2.bp.blogspot.com/-CoSzX3Cl0Ts/XOosc92mKLI/AAAAAAAAEqg/o1aLQ8Ip7-MRDmcLM6VXPKQjCnWmHpIGgCLcBGAs/s1600/Ceratophora%2Baspera_4.jpg" alt="Rough-nosed Horned Lizard" class="img-fluid">
+                    </div>
+                </div>
+
+                <h2>Turtles in Sri Lanka</h2>
+                <p>Sri Lanka's coastal waters and inland water bodies host several species of turtles, contributing to the country's rich biodiversity. Turtles are vital for marine and freshwater ecosystems, helping maintain healthy seagrass beds and coral reefs.</p>
+                
+                <h3>Green Sea Turtle</h3>
+                <p>The green sea turtle is commonly found in Sri Lanka's coastal waters. These turtles are named for the greenish color of their cartilage and fat rather than their shells. They feed primarily on seagrasses and algae and are often seen nesting on the sandy beaches of Sri Lanka.</p>
+                <div class="row gallery mt-5">
+                    <div class="col-md-4 mb-4">
+                        <img src="https://www.srilankansafari.com/images/sri-lankan-green-turtle/green-turtle05.jpg" alt="Green Sea Turtle" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://www.srilankansafari.com/images/sri-lankan-green-turtle/green-turtle02.jpg" alt="Green Sea Turtle" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/08/13150352/1-Tammy-c-Krysztof-Bargiel-768x512.jpg" alt="Green Sea Turtle" class="img-fluid">
+                    </div>
+                </div>
+
+                <h3>Leatherback Turtle</h3>
+                <p>The leatherback turtle is the largest sea turtle species and can be found in Sri Lankan waters. They are known for their distinctive leathery shells and long migrations across the oceans. Leatherbacks primarily feed on jellyfish and are crucial for controlling jellyfish populations.</p>
+                <div class="row gallery mt-5">
+                    <div class="col-md-4 mb-4">
+                        <img src="https://www.srilankansafari.com/images/sri-lankan-leatherback-turtle/leatherback-turtle03.jpg" alt="Leatherback Turtle" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://www.srilankansafari.com/images/sri-lankan-leatherback-turtle/leatherback-turtle01.jpg" alt="Leatherback Turtle" class="img-fluid">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://s3.amazonaws.com/media.jungledragon.com/images/1837/20441_small.JPG?AWSAccessKeyId=05GMT0V3GWVNE7GGM1R2&Expires=1718236810&Signature=yIB1wNy6VwHssR05IhVXSg%2ByZdI%3D" alt="Leatherback Turtle" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="">home</a>
+                <a href="">adventure</a>
+                <a href="">blog</a>
+                <a href="">events</a>
+                <a href="">products</a>
+                <a href="">about</a>
+            </div>
+    
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my wishlist</a>
+                <a href="#">ask questions</a>
+                <a href="#">terms of use</a>
+                <a href="#">privacy policy</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> hellodamitha@gmail.com </a>
+                <a href="#"> <i class="fas fa-map"></i> Colombo, Sri Lanka</a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/hashtag/visitsrilanka" target="_blank"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="https://twitter.com/search?q=%23visitsrilanka&src=typed_query" target="_blank"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="https://www.instagram.com/explore/tags/visitsrilanka/" target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="https://www.linkedin.com/feed/hashtag/visitsrilanka/" target="_blank"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <!-- <a href="#"><i class="fab fa-github"></i> github </a> -->
+                <a href="https://www.pinterest.com/search/pins/?q=visitsrilanka&rs=typed" target="_blank"><i class="fa fa-pinterest"></i> pinterest </a>
+            </div>
+    
+        </div>
+    
+        <div class="credit">Made with 🤍 in<span> Sri Lanka</span> <br> Copyright ©️ 2023 - all rights reserved!</div>
+    
+    </section>
+    
+    <!-- footer section ends -->
+    
+    
+    
+    
+    
+    
+    
+    <!-- ------scroller to top -->
+    
+    <a href="#top" class="to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+    
+    
+    
+    
+    
+    
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
